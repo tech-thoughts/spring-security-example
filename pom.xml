@@ -42,5 +42,16 @@
           </plugin>
       </plugins>
   </build>
+  
+  <distributionManagement>
+    <repository>
+        <id>releases</id>
+        <url>https://mymavenrepo.com/repo/ll2K83CeE3oSdSb0t05n/</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>https://mymavenrepo.com/repo/ll2K83CeE3oSdSb0t05n/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
